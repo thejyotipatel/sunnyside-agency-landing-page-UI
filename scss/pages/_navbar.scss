@@ -1,6 +1,8 @@
 header {
   position: absolute;
   padding: $size-400;
+  height: $w-header;
+  border: $d-border;
   @include flex-jSpace_between-aCenter;
   .nav-links {
     display: none;
@@ -27,7 +29,7 @@ header {
           a {
             font-size: $fs-200;
             font-weight: $fw-500;
-            color: $clr-neutral-200;
+            color: $clr-neutral-100;
           }
         }
       }

@@ -1,5 +1,22 @@
-main {
-  .features {
+.about {
+  &-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    &-card {
+      // height: 100%;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      .about-cards-card-desc {
+        text-align: left;
+        margin: $size-500;
+        color: $clr-neutral-500;
+        h1 {
+          font-size: $fs-500;
+        }
+      }
+    }
   }
 }
 

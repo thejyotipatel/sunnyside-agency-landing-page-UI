@@ -2,7 +2,7 @@ $clr-primary-100: hsl(7, 99%, 70%);
 $clr-primary-200: hsl(51, 100%, 49%);
 $clr-primary-300: hsl(167, 40%, 24%);
 $clr-primary-400: hsl(198, 62%, 26%);
-$clr-primary-500: hsl(168, 34%, 41%);
+$clr-primary-500: hsl(167, 44%, 70%);
 
 $clr-neutral-100: hsl(0, 0%, 100%);
 $clr-neutral-200: hsl(210, 4%, 67%);
@@ -51,5 +51,5 @@ $bxs-300: 0 1px 1px #0000000a;
 $bxs-400: 0 2px 1px #0000000a;
 
 $w-container: calc(min(100%, 1440px));
-
+$w-header: 50px;
 $d-border: 2px solid hotpink;
