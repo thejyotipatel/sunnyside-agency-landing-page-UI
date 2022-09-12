@@ -1,0 +1,55 @@
+$clr-primary-100: hsl(7, 99%, 70%);
+$clr-primary-200: hsl(51, 100%, 49%);
+$clr-primary-300: hsl(167, 40%, 24%);
+$clr-primary-400: hsl(198, 62%, 26%);
+$clr-primary-500: hsl(168, 34%, 41%);
+
+$clr-neutral-100: hsl(0, 0%, 100%);
+$clr-neutral-200: hsl(210, 4%, 67%);
+$clr-neutral-300: hsl(232, 10%, 55%);
+$clr-neutral-400: hsl(213, 9%, 39%);
+$clr-neutral-500: hsl(212, 27%, 19%);
+
+$ff-primery: Inter, Avenir, Helvetica, Arial, sans-serif;
+$ff-body: $ff-primery;
+$fs-body: calc(10px + 2vmin);
+
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+$fs-100: 12px;
+$fs-200: 16px;
+$fs-300: 18px;
+$fs-400: 1em;
+$fs-500: 1.5em;
+$fs-600: 2em;
+$fs-700: 2.5em;
+$fs-800: 3em;
+$fs-900: 3.5em;
+
+$ts-400: all 0.2s linear;
+$btn-radius-02: 0.2em;
+$btn-radius-1: 1em;
+
+$size-100: 0.5em;
+$size-200: 1em;
+$size-300: 1.5em;
+$size-400: 2em;
+$size-500: 2.5em;
+$size-600: 3em;
+$size-700: 3.5em;
+$size-800: 4em;
+$size-900: 5em;
+
+$bxs-100: 0 8px 16px #00000029;
+$bxs-200: 0 4px 12px #00000014, 0 0 1px #0100001a;
+$bxs-300: 0 1px 1px #0000000a;
+$bxs-400: 0 2px 1px #0000000a;
+
+$w-container: calc(min(100%, 1440px));
+
+$d-border: 2px solid hotpink;
