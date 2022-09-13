@@ -1,7 +1,9 @@
 header {
-  position: absolute;
+  // position: absolute;
   padding: $size-400;
   height: $w-header;
+  background-color: black;
+
   border: $d-border;
   @include flex-jSpace_between-aCenter;
   .nav-links {
@@ -12,8 +14,17 @@ header {
     display: block;
     background-color: transparent;
   }
-  .nav-mobile-links {
+  .mobile-nev {
     display: none;
+    background-color: #fff;
+    // position: relative;
+    .mobile-nav-bar {
+      width: calc(min(90%, 600px));
+    }
+    // inset: 1;
+    // inset: calc(min(90%, 600px));
+    // margin: 47% auto $size-200 $size-200;
+    /* margin: 50% auto; */
   }
 }
 
@@ -39,7 +50,7 @@ header {
     .menu-btn {
       display: none;
     }
-    .nav-mobile-links {
+    .mobile-nev {
       display: none;
     }
   }
